@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <title>Calculadora </title>
+  </head>
+  <style>
+      body {
+         background: linear-gradient(to right, rgba(79, 3, 141, 0.844), rgb(0, 0, 0));
+         color: white;
+         font-size: 32px;
+      }
+
+      .input {
+        background: linear-gradient(to right, rgba(153, 0, 255, 0.844), rgb(250, 250, 250));
+        color: white;
+        height: 40px;
+        width: 420px;
+      }
+  </style>
+  <body>
+    <h2>Calculadora</h2>
+    <form method="post" action="REVISAO5.php">
+      <label>Valor 1:</label>
+      <input type="number" name="num1" required><br><br>
+      <label>Valor 2</label>
+      <input type="number" name="num2" required><br><br>
+      <input class="input" type="submit" value="Calcular">
+      <input class="input" type="reset" name = "limpar" value= "Limpar">
+    </form>
+  </body>
+</html>

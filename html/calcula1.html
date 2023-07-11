@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- PROFA INAIARA SEIBEL - PROGRAMAÇÃO WEB I - TEC UNISC!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Minha calculadora</title>
+</head>
+<body>
+    <form method="post" action="calcula1.php">
+        Valor 1:
+        <!-- Primeira caixa de texto !-->
+        <input type="text" name="valor1" size="5" />
+        Tipo de calculo:
+        <!-- Caixa de seleção com as operações aritméticas  !-->
+         <select name="tipo">
+         <option selected="selected">Somar</option>
+         <option>Subtrair</option>
+         <option>Multiplicar</option>
+         <option>Dividir</option>
+         </select>
+        Valor 2:
+        <!-- Segunda caixa de texto !-->
+        <input type="text" name="valor2" size="5" />
+        <!-- Botão de envio do formulário !-->
+        <input type="submit" name="calcularbtn" value="Calcular" />
+    </form>
+</body>
+</html>
